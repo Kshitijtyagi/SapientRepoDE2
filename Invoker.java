@@ -5,8 +5,8 @@ public class Invoker
     private Switch sw;
 
     Invoker(Switch sw){
-        //this.sw=sw;
-		//commented the lines for created a Bug
+        this.sw=sw;
+		
     }
 
     void turnOn(){
